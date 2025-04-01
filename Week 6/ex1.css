@@ -1,0 +1,26 @@
+body{
+    font-size: larger;
+}
+h1{
+   text-decoration: underline;
+   text-align: center;
+}
+p{
+    margin: auto;
+    margin-bottom: 5px;
+}
+p#n1{
+    width: 300px;
+    background-color: yellow;
+}
+p#n2 {
+    width: 300px;
+    background-color: yellow;
+    color: red;
+}
+p#n3{
+    width: 300px;
+    background-color: black;
+    color: antiquewhite;
+    font-style: italic;
+}

@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-style: bold;
+}
+p{
+    width: 400px;
+    margin: auto;
+}
+p#n1{
+    background-color: rgb(241, 240, 240);
+}
+p#n2{
+    background-color: rgb(227, 227, 96);
+}
