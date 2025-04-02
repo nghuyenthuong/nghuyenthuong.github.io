@@ -1,0 +1,28 @@
+/* Chọn phần tử bằng ID */
+span#top {
+    background: DodgerBlue;
+    color: white;
+    padding: 5px;
+}
+
+/* Chọn tất cả phần tử <span> */
+span {
+    background: DodgerBlue;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Chọn phần tử có class "sky" */
+span.sky {
+    background: DodgerBlue;
+    color: white;
+    padding: 5px;
+}
+
+/* Chọn phần tử có class "code" */
+.code {
+    font-family: Consolas, monospace;
+    color: red;
+}

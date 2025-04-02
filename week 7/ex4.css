@@ -1,0 +1,12 @@
+div > span {
+    background: DodgerBlue;
+    }
+    span { background: #fff; }
+
+    
+    .apple { color: red }
+    .orange { color: orange }
+    .small { font-size: 16px }
+    .apple.orange {
+    font-style: italic;
+    }
