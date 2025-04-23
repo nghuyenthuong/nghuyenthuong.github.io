@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Circle Calculator</title>
+    <script language="javascript">
+        function calculateCircle() {
+            var radius = parseFloat(document.forms["circleForm"]["radius"].value);
+
+            if (isNaN(radius)) {
+                alert("Please enter a valid number for the radius.");
+            } else {
+                var circumference = 2 * 3.14 * radius;
+                var area = 3.14 * radius * radius;
+
+                document.getElementById("circumferenceResult").innerHTML = "Circumference: " + circumference;
+                document.getElementById("areaResult").innerHTML = "Area: " + area;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Circle Calculator</h2>
+    <form name="circleForm">
+        <table>
+            <tr>
+                <td>Radius:</td>
+                <td><input type="text" name="radius"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="button" onclick="calculateCircle()">Calculate</button></td>
+            </tr>
+            <tr>
+                <td>Circumference:</td>
+                <td><div id="circumferenceResult"></div></td>
+            </tr>
+            <tr>
+                <td>Area:</td>
+                <td><div id="areaResult"></div></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
