@@ -7,22 +7,7 @@
 </head>
 <body>
     <h2>Thời gian hiện tại </h2>
-    <p id="clock"></p>
-    <script>
-        =function displayDatetime() {
-           const days=["Chủ nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy"];
-           const now=new Date();
-           const day=days[now.getDay()];
-           const date=now.getDate();
-           const month=now.getMonth()+1;
-           const year=now.getFullYear();
-           const hours=now.getHours().toString().padStart(2,'0');
-           const minutes=now.getMinutes().toString().padStart(2,'0');
-           const seconds=now.getSeconds().toString().padStart(2,'0');
-           const fullTime=${day}, ngày ${date} tháng ${month} năm ${year} ${hours}:${minutes}:${seconds}
-
-
-        }
-    </script>
+    <p id="datetime"></p>
+<script src="datetime.js"></script>
 </body>
 </html>
