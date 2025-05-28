@@ -1,0 +1,93 @@
+/* Reset (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Roboto, sans-serif;
+  background: #e2d7aa;
+  color: #000000;
+  font-size: 16px;
+  width: 1180px;
+  margin: 0 auto; /* Center the body */
+}
+
+/* Image container */
+.image-container {
+  width: 1600px;
+  height: 450px;
+  margin-top: 65px;
+}
+
+/* Main image */
+.image-container img {
+  width: 1100px;
+  height: 450px;
+}
+
+/* h1 heading */
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 65px;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Navigation */
+nav {
+  margin: 30px;
+}
+
+/* Hyperlinks */
+a {
+  font-size: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Link hover */
+a:hover {
+  color: #0a2d4a;
+  font-weight: bold;
+}
+
+/* Images in article */
+article img {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* First letter of each paragraph */
+article p::first-letter {
+  font-family: EucrosiaUPC, sans-serif;
+  font-size: 40px;
+}
+
+/* Hyperlink in last paragraph inside a span */
+article p:last-of-type span:first-of-type a {
+  background: url(images/bg2.jpg);
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Icon before comment link */
+article p:last-of-type span:first-of-type a::before {
+  content: url("images/comment.png");
+  position: relative;
+  right: 5px;
+  top: 7px;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  margin: 0px;
+  padding: 10px 0;
+  text-align: center;
+}
