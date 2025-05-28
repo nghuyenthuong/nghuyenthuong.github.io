@@ -1,11 +1,11 @@
-/* Reset (optional) */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
+
 body {
   font-family: Roboto, sans-serif;
   background: #e2d7aa;
@@ -15,7 +15,6 @@ body {
   margin: 0 auto; /* Center the body */
 }
 
-/* Image container */
 .image-container {
   width: 1600px;
   height: 450px;
